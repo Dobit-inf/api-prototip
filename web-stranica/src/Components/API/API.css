@@ -1,0 +1,162 @@
+.api-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #383535;
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  color: #383535;
+ 
+  appearance: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+
+
+}
+
+.form-group select option {
+  padding: 10px;
+  background-color: white;
+  color: #383535;
+}
+
+.form-group {
+  position: relative;
+}
+
+
+
+
+.form-group.oib-tvrtke{
+margin-top: 20px;
+};
+
+.form-group select:focus {
+  border-color: #0096FF;
+  outline: none;
+}
+
+.form-group select::-ms-expand {
+  display: none; 
+}
+
+.fetch-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0096FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.fetch-button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #383535;
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.JSONText {
+  color: white;
+}
+
+.toggle-button {
+  position: absolute;
+  margin-top: -8px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 1.4em;
+  cursor: pointer;
+  color: #929292;
+  
+}
+
+.json-value {
+  color: rgb(5, 183, 5);
+}
+
+.get-sign {
+  display: inline;
+  align-items: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.get-sign-get {
+  background-color: #61affe;
+  border-radius: 15% 0 0 15%;
+  color: white;
+  padding: 5px 25px;
+  margin-right: 10px;
+ 
+}
+
+.get-sign-api {
+  color: #383535;
+}
+
+/* ApiUpdate */
+
+.get-sign-update {
+  background-color: #fca130;
+  border-radius: 15% 0 0 15%;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+/* ApiPost */
+
+.get-sign-post {
+  background-color: #49cc90;
+  border-radius: 15% 0 0 15%;
+  color: white;
+  padding: 5px 20px;
+  margin-right: 10px;
+}
+

@@ -1,0 +1,64 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #0096FF;
+    margin-bottom: 10px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo, h1 {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Razmak između teksta i ikone */
+  }
+  
+  /* Stilizacija za ikonu zupčanika */
+  .gear-icon {
+    width: 24px; /* Veličina ikone */
+    height: 24px; /* Veličina ikone */
+    animation: rotate 10s linear infinite; /* Rotacija ikone */
+  }
+  
+  /* Animacija rotacije */
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
